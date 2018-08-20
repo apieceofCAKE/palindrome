@@ -32,29 +32,4 @@ int main() {
         printf("A palavra %s não é palindromo.\n", palavra);
 
     return 0;
-
-
-   /* while (x < 51) {
-
-        if (palavra[(50 - x)] != aux && palavra[(50 - x)] != "\0")
-            inversa[x] = palavra[(50 - x)];
-            y = y + 1;
-        x = x + 1;
-    }
-
-    printf("%s\n", inversa);
-
-    while (z <= y) {
-
-        if (palavra[z] == inversa[z])
-            y = y - 1;
-        z = z + 1;
-    }
-
-    if (y == 0)
-        printf("A palavra %s é palindromo.\n", palavra);
-    else
-        printf("A palavra %s não é palindromo.\n", palavra);
-
-    return 0;*/
 }
