@@ -1,2 +1,2 @@
 # palindrome
-Initial practice exercises using the C language.
+Practice code using the C language.
