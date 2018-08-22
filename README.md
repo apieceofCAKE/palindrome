@@ -1,2 +1,2 @@
 # palindrome
-College assignment.
+College programming class assignment.
