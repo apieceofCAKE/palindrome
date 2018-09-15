@@ -1,2 +1,2 @@
 # palindrome
-College programming class assignment.
+Word and number palindrome verifier. Part of a college programming class exercise list.
