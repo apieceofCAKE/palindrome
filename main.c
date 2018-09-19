@@ -19,21 +19,21 @@ int main() {
     printf("   \n");
 
     //Loop ends when it reaches NUL character
-    while(palavra[tamanho] != '\0') {
+    while (palavra[tamanho] != '\0') {
 
         tamanho ++;
     }
 
-    while(aux1 < tamanho) {
+    while (aux1 < tamanho) {
 
-        if(palavra[aux1] == palavra[(tamanho - aux1 - 1)])
+        if (palavra[aux1] == palavra[(tamanho - aux1 - 1)])
             aux2 ++;
             
         aux1 ++;
     }
 
     //aux2 acts as a counter for characters that are the same as its correspondent backwards-wise
-    if(aux2 == tamanho)
+    if (aux2 == tamanho)
         printf("A palavra %s é palindromo.\n", palavra);
     else
         printf("A palavra %s não é palindromo.\n", palavra);
