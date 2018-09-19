@@ -5,38 +5,38 @@
 int main() {
 
     //Max size for the input is 49 characters
-    char palavra [50];
-    int tamanho = 0;
+    char word [50];
+    int size = 0;
     
     //Auxiliary variables
     int aux1 = 0;
     int aux2 = 0;
 
-    printf("\nVerificador de palíndromos.\n");
-    printf("Entre com a palavra (letras minusculas e sem acento ou números): \n");
+    printf("\nPalindrome verifier.\n");
+    printf("Enter string (case and special characters sensitive): \n");
     scanf("%s", palavra);
    
     printf("   \n");
 
     //Loop ends when it reaches NUL character
-    while (palavra[tamanho] != '\0') {
+    while (word[size] != '\0') {
 
-        tamanho ++;
+        size ++;
     }
 
-    while (aux1 < tamanho) {
+    while (aux1 < size) {
 
-        if (palavra[aux1] == palavra[(tamanho - aux1 - 1)])
+        if (word[aux1] == word[(size - aux1 - 1)])
             aux2 ++;
             
         aux1 ++;
     }
 
     //aux2 acts as a counter for characters that are the same as its correspondent backwards-wise
-    if (aux2 == tamanho)
-        printf("A palavra %s é palindromo.\n", palavra);
+    if (aux2 == size)
+        printf("The string %s is a palindrome.\n", palavra);
     else
-        printf("A palavra %s não é palindromo.\n", palavra);
+        printf("The string %s isn't a palindrome.\n", palavra);
 
     return 0;
 }
