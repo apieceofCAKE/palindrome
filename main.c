@@ -14,7 +14,7 @@ int main() {
 
     printf("\nPalindrome verifier.\n");
     printf("Enter string (case and special characters sensitive): \n");
-    scanf("%s", palavra);
+    scanf("%s", word);
    
     printf("   \n");
 
@@ -34,9 +34,9 @@ int main() {
 
     //aux2 acts as a counter for characters that are the same as its correspondent backwards-wise
     if (aux2 == size)
-        printf("The string %s is a palindrome.\n", palavra);
+        printf("The string %s is a palindrome.\n", word);
     else
-        printf("The string %s isn't a palindrome.\n", palavra);
+        printf("The string %s isn't a palindrome.\n", word);
 
     return 0;
 }
